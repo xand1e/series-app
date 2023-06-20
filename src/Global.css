@@ -1,0 +1,63 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+:root {
+
+    --background: #2F2E2E;
+    --color: #ffffff;
+    --acc: rgb(172, 64, 222);
+    /*#5b04ad */
+
+}
+
+@media (max-width: 900px) {
+
+    :root {
+
+        font-size: 15px;
+
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    :root {
+
+        font-size: 14px;
+
+    }
+
+}
+
+body {
+
+
+
+    background-color: var(--background);
+    color: var(--color);
+
+    font-family: 'Geologica', sans-serif;
+
+
+}
+
+a {
+
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+main {
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}

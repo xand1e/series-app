@@ -1,0 +1,78 @@
+
+
+.containerinfo {
+
+
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #363434;
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 5px;
+    margin-top: 7rem;
+    padding: 2rem;
+
+
+
+}
+
+@media (max-width: 900px) {
+
+    .containerinfo {
+
+        grid-template-columns: 1fr;
+
+
+    }
+
+    .info {
+
+
+        padding-top: 2rem;
+
+    }
+
+}
+
+.imageinfo {
+
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    filter: saturate(0.87);
+
+}
+
+
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    font-size: 2rem;
+    padding-left: 2rem;
+
+
+}
+
+.nameinfo {
+
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.summaryinfo {
+
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+.rateinfo {
+
+    color: var(--acc);
+
+
+}

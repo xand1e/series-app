@@ -1,0 +1,64 @@
+.header {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+
+    height: 6rem;
+
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+
+
+}
+
+.tv {
+    font-size: 3rem;
+    padding-left: 2rem;
+
+
+}
+
+.tv:hover {
+
+    color: var(--acc);
+    transition: 0.5s ease;
+
+}
+
+
+.box{
+    width: 12rem;
+    padding-right: 2rem;
+
+}
+
+
+::placeholder {
+
+    text-align: center;
+    color: var(--acc);
+}
+
+
+
+.search {
+
+
+
+    background-color: var(--background);
+    border: 3px solid var(--acc);
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    outline: none;
+    color: var(--acc);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
